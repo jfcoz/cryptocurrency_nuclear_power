@@ -42,6 +42,7 @@ my $miners_efficiency={
   'CryptoNightV7'=>   2580    *  1   / 330,
   'Equihash'     =>    870    *  1   / 360,
   'Lyra2REv2'    =>     14.7  * $M   / 390,
+  'Lyra2z'       =>      1.35 * $M   / 360,
   'NeoScrypt'    =>   2460    * $K   / 450,
   'TimeTravel10' =>     27    * $M   / 450,
   'X16R'         =>     21    * $M   / 360,
