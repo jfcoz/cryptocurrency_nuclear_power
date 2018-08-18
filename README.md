@@ -42,3 +42,4 @@ Total used power for all listed cryptocurrency: 8.46 GW
 
 - 12 may 2018 : 7.78 GW
 - 12 jun 2018 : 8.46 GW
+- 18 august 2018 : 9.33 GW

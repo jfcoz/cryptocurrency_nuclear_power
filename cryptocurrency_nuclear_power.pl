@@ -36,19 +36,22 @@ my @ExcludesCoins=(
 my $miners_efficiency={
 #  algo          => hash rate * unit / Watts
 # GPU
-  'Ethash'       =>     84    * $M   / 405,
-  'Groestl'      =>     63.9  * $M   / 450,
-  'PHI1612'      =>     45    * $M   / 390,
-  'CryptoNightV7'=>   2580    *  1   / 330,
-  'Equihash'     =>    870    *  1   / 360,
-  'Lyra2REv2'    =>     14.7  * $M   / 390,
-  'Lyra2z'       =>      1.35 * $M   / 360,
-  'NeoScrypt'    =>   2460    * $K   / 450,
-  'TimeTravel10' =>     27    * $M   / 450,
-  'X16R'         =>     21    * $M   / 360,
-  'Skunkhash'    =>     54    * $M   / 345,
-  'NIST5'        =>     57    * $M   / 345,
-  'Xevan'        =>      4.8  * $M   / 360,
+  'Ethash'           =>     88.5  * $M   / 405,
+  'Groestl'          =>     63.9  * $M   / 450,
+  'PHI1612'          =>     45    * $M   / 390,
+  'CryptoNightHeavy' =>   2850    *  1   / 330,
+  'CryptoNightV7'    =>   2580    *  1   / 330,
+  'Equihash'         =>    870    *  1   / 360,
+  'Lyra2REv2'        =>     14.7  * $M   / 390,
+  'Lyra2z'           =>      1.35 * $M   / 360,
+  'NeoScrypt'        =>   2460    * $K   / 450,
+  'PHI2'             =>      6    * $M   / 170,   # https://www.coincalculators.io/coin.aspx?crypto=luxcoin-mining-calculator
+  'TimeTravel10'     =>     27    * $M   / 450,
+  'X16R'             =>     21    * $M   / 360,
+  'Skunkhash'        =>     54    * $M   / 345,
+  'NIST5'            =>     57    * $M   / 345,
+  'Xevan'            =>      4.8  * $M   / 360,
+  'Zhash'            =>      240  *  1   / 1050,  # https://mineshop.eu/bitcoin-gold-miner/bitcoin-gold-mining-rig/
 # ASIC
   'SHA-256'      =>  14000    * $G   / 1370,
   'Scrypt'       =>   1000    * $M   / 1600,
@@ -94,7 +97,7 @@ sub calculate_watts {
       $crypto_stats->{$coin_name}=$coin_watts;
       $total_crypto_watts+=$coin_watts;
     } else {
-      die("Missing efficiency information for algorithm $coin_algorithm");
+      warn("Missing efficiency information for algorithm $coin_algorithm");
     }
   }
 
