@@ -36,20 +36,32 @@ my @ExcludesCoins=(
 my $miners_efficiency={
 #  algo          => hash rate * unit / Watts
 # GPU
+  'BCD'              =>     30.3  * $M   / 390,
+  'Equihash (210,9)' =>    285    *  1   / 360,
+  'Energi'           =>     84    * $M   / 405,
   'Ethash'           =>     88.5  * $M   / 405,
   'Groestl'          =>     63.9  * $M   / 450,
+  'Hex'              =>     22.8  * $M   / 390,
   'PHI1612'          =>     45    * $M   / 390,
+  'ProgPow'          =>     23.7  * $M   / 420,
+  'CryptoNightFast'  =>   4950    *  1   / 330,
+  'CryptoNightHaven' =>   2700    *  1   / 330,   # https://www.whattomine.com/coins/279-xhv-cryptonighthaven
   'CryptoNightHeavy' =>   2850    *  1   / 330,
+  'CryptoNightSaber' =>   2700    *  1   / 330,   # https://www.whattomine.com/coins/256-tube-cryptonightsaber
   'CryptoNightV7'    =>   2580    *  1   / 330,
+  'CryptoNightV8'    =>   4950    *  1   / 330,
   'Equihash'         =>    870    *  1   / 360,
   'Lyra2REv2'        =>     14.7  * $M   / 390,
   'Lyra2z'           =>      1.35 * $M   / 360,
+  'MTP'              =>      1.8  * $M   / 390,
   'NeoScrypt'        =>   2460    * $K   / 450,
   'PHI2'             =>      6    * $M   / 170,   # https://www.coincalculators.io/coin.aspx?crypto=luxcoin-mining-calculator
   'TimeTravel10'     =>     27    * $M   / 450,
+  'Ubqhash'          =>     84    * $M   / 405,   # https://whattomine.com/coins/173-ubq-ubqhash
   'X16R'             =>     21    * $M   / 360,
   'Skunkhash'        =>     54    * $M   / 345,
   'NIST5'            =>     57    * $M   / 345,
+  'X22i'             =>     15    * $M   / 390,
   'Xevan'            =>      4.8  * $M   / 360,
   'Zhash'            =>      240  *  1   / 1050,  # https://mineshop.eu/bitcoin-gold-miner/bitcoin-gold-mining-rig/
 # ASIC
@@ -64,6 +76,7 @@ my $miners_efficiency={
   'LBRY'         =>     20    * $G   / 200,
   'Blake (14r)'  =>     80    * $G   / 205,
   'Pascal'       =>     20    * $G   / 105,
+  'Sia'          =>    135    * $G   / 125,
   'X11Gost'      =>      0.45 * $G   / 70,
   'CryptoNight'  =>     55    * $K   / 140
 };
