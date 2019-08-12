@@ -48,3 +48,9 @@ Total used power for all listed cryptocurrency: 16.13 GW
 - 18 august 2018 : 9.33 GW
 - 27 january 2019 : 10.24 GW = 14.75 nuclear reactors
 - 12 august 2019 : 16.13 GW = 23.2 nuclear reactors
+
+## Related articles
+
+- [Digiconomist Bitcoin Energy Consumption Index](https://digiconomist.net/bitcoin-energy-consumption)
+- [Cambridge Bitcoin Energy Consumption Index](https://cbeci.org/)
+- [Bitcoin Electronic Waste Monitor](https://digiconomist.net/bitcoin-electronic-waste-monitor/)
