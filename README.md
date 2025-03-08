@@ -6,28 +6,28 @@ On October 2020, cryptocurrency needs 35 nuclear reactors !
 
 ~~~
           Power  : cryptocurrency
-    12058457534W : Bitcoin (12.06 GW)
-     3901752371W : Monacoin (3.90 GW)
-     2259830274W : Zcash (2.26 GW)
-     1159370668W : Ethereum (1.16 GW)
-     1066431941W : Decred (1.07 GW)
-      591213900W : Dogecoin (591.21 MW)
-      487516317W : GroestlCoin (487.52 MW)
-      441576770W : BitcoinDiamond (441.58 MW)
-      402455408W : Litecoin (402.46 MW)
-      336659264W : Dash (336.66 MW)
-      306769480W : Monero (306.77 MW)
-      249246128W : BitcoinCashABC (249.25 MW)
-      196559189W : Horizen (196.56 MW)
-      150185010W : BitcoinSV (150.19 MW)
-      117720650W : Viacoin (117.72 MW)
+    74592554852W : Bitcoin (74.59 GW)
+     4721696651W : Dogecoin (4.72 GW)
+     4008509410W : Litecoin (4.01 GW)
+     3667007570W : Pepecoin (3.67 GW)
+     3409884048W : Zcash (3.41 GW)
+     3373537332W : Dingocoin (3.37 GW)
+     1416182327W : Monacoin (1.42 GW)
+      851386362W : Horizen (851.39 MW)
+      758432946W : Monero (758.43 MW)
+      488617388W : Nicehash-SHA-AB (488.62 MW)
+      320763646W : BitcoinCash (320.76 MW)
+      220535259W : GroestlCoin (220.54 MW)
+      211861536W : Dash (211.86 MW)
+      210957261W : Nicehash-Scrypt (210.96 MW)
+      143996195W : Nervos (144.00 MW)
 ...
 
-Total used power for all listed cryptocurrency: 24.48 GW
+Total used power for all listed cryptocurrency: 99.12 GW
 
-        = 0.92 % of world electricity
-        = 35.26 nuclear reactors of 900MW
-        = 7.83% of world nuclear reactors
+	= 3.71 % of world electricity
+	= 142.73 nuclear reactors of 900MW
+	= 31.72% of world nuclear reactors
 ~~~
 
 ## History
@@ -38,6 +38,7 @@ Total used power for all listed cryptocurrency: 24.48 GW
 - 27 january 2019 : 10.24 GW = 14.75 nuclear reactors
 - 12 august 2019 : 16.13 GW = 23.2 nuclear reactors
 - 23 october 2020 : 24.48 GW = 35.26 nuclear reactors
+- 3 march 2025 : 99.12 GW = 142.73 nuclear reactors
 
 ## Related articles
 
